@@ -1,5 +1,7 @@
 from flask import Flask, request, render_template
 import os
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("resumes", exist_ok=True)
 from utils import extract_text, extract_skills
 from model import train_model
 
