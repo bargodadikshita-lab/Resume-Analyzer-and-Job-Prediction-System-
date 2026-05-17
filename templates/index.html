@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 Resume Analyzer</h1>
+
+    <form method="POST" action="/analyze" enctype="multipart/form-data">
+        <input type="file" name="resume" required>
+        <button type="submit" onclick="loading()">Analyze Resume</button>
+    </form>
+
+    <p id="loadingText"></p>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

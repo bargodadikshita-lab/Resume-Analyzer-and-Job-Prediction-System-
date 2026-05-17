@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.role {
+    font-size: 24px;
+    color: #667eea;
+}
+
+.skills {
+    margin-top: 10px;
+}
+
+.tag {
+    background: #667eea;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}

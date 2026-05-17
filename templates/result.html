@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📊 Analysis Result</h1>
+
+    <h2>Predicted Role:</h2>
+    <p class="role">{{ role }}</p>
+
+    <h3>Confidence:</h3>
+    <p>{{ confidence }}%</p>
+
+    <h3>Skills:</h3>
+    <div class="skills">
+        {% for skill in skills %}
+            <span class="tag">{{ skill }}</span>
+        {% endfor %}
+    </div>
+
+    <br>
+    <a href="/">Analyze Another</a>
+</div>
+
+</body>
+</html>
