@@ -19,3 +19,14 @@ An NLP and Machine Learning based web application that analyzes resumes and pred
 
 ```bash
 pip install -r requirements.txt
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Upload Resume
+![Upload Resume](screenshots/upload.png)
+
+### Prediction Result
+![Prediction Result](screenshots/result.png)
